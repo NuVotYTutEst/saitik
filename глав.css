@@ -1,0 +1,66 @@
+body {
+margin: 0;
+
+}
+
+*{
+box-sizing: content-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+margin: 0;
+}
+
+
+/*frame*/
+.frame1 {
+	width: 100%;
+	max-width:100%;	
+	margin: 0 auto;
+
+}
+
+
+/*картинка*/
+.картинка {
+	width: 100%;
+	height: 100vh;
+	background: 
+	url("https://rykoszet.info/wp-content/uploads/2020/01/sS5NrxECJQQ.jpg") center 
+	no-repeat;
+	background-size: cover;
+}
+
+
+/*header*/
+.header {
+	width: 100%;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+}
+
+.nav{
+	font-size: 26px;
+
+}
+
+.nav__link {
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px;
+
+	color: #878484;
+	text-decoration: none;
+
+	transition: color 0.1s linear;
+}
+
+
+
+.nav__link:hover {
+	color: #FE9800
+}
